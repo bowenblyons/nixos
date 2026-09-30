@@ -171,7 +171,7 @@
   # Copy the NixOS configuration file and link it from the resulting system
   # (/run/current-system/configuration.nix). This is useful in case you
   # accidentally delete configuration.nix.
-  system.copySystemConfiguration = true;
+  # system.copySystemConfiguration = true;
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   # This option defines the first version of NixOS you have installed on this particular machine,
